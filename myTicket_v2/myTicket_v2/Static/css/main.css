@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/img/Backgroundpic.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+.phone-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 60px; 
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto; 
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: -70px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.clock {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.clockMessage {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 30px;
+  right: -150px; 
+  width: 200px; 
+  text-align: center;
+}
+
+.clock:hover .clockMessage {
+  display: block;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+}
+
+.form-container form {
+  padding: 0;
+  border: none; 
+  margin: 30px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+}
+
+.input-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.input-container input[type="text"],
+.input-container select,
+.input-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px; 
+  font-size: 18px;
+  width: 500px;
+}
+
+.description-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 18px;
+  width: 500px;
+  height: 150px; 
+}
+
+.csrf-field {
+  display: none;
+}
+
+#submitButton {
+  height: 40px!important;
+  line-height: 10px;
+  padding: 25px 30px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  color: var(--black-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 555px;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+#submitButton:hover {
+  background-image: linear-gradient(90deg, #006f84, #5ca742);
+}
+#errorMessage {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+#attachLabel {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  height: auto;
+  width: 470px; 
+  display: flex;
+  align-items: center;
+}
+
+#attachIcon {
+  font-size: 24px;
+  margin-right: 1px;
+}
+
+#attachIcon,
+.attach-text {
+  cursor: pointer;
+}
+
+#attachLabel:hover {
+  border-color: #0097b2;
+}
+
+.ticket-history-button {
+  margin-top: 10px; 
+  padding: 5px;
+  height: 40px !important;
+  line-height: 40px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  color: var(--black-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px; 
+  display: block;  
+}
+
+.ticket-history-button:hover {
+  background-image: linear-gradient(90deg, #006f84, #5ca742);
+
+}

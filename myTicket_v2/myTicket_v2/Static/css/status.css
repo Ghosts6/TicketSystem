@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/img/Backgroundpic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+.phone-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.clock {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.clockMessage {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 30px;
+  right: -150px;
+  width: 200px;
+  text-align: center;
+}
+
+.clock:hover .clockMessage {
+  display: block;
+}
+
+.ticket-form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: auto;
+}
+
+.status-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.ticket-pill {
+  display: flex;
+  align-items: flex-start; 
+  margin-bottom: 15px;
+}
+
+.ticket-details {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.ticket-details .tooltip-content {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.ticket-details:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ticket-details .tooltip-content::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  transform: translateX(-50%);
+}
+
+.hide-django-tags {
+  display: none;
+}
+
+.bottom-buttons-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+#logoutButton,
+#createTicketButton {
+  padding: 5px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  color: var(--black-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 20px;
+  width: 150px;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 -250px;
+}
+
+#logoutButton:hover,
+#createTicketButton:hover {
+  background-image: linear-gradient(90deg, #006f84, #5ca742);
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
