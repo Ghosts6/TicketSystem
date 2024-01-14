@@ -100,3 +100,365 @@ tail -n 50 myTicket_v2/mysitelog.txt
 
 
 # Code-sample:
+Login Page:
+
+```html
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png'%}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png'%}">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="{% static 'css/login.css' %}" rel="stylesheet"> 
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+<title>Login page</title>
+</head>
+<body>
+
+<a href="https://kiarashbashokian.com" target="_blank">
+  <img src="{% static 'img/Untitled-removebg-preview.png' %}" alt="Your Logo" class="logo">
+</a>
+
+<div class="phone-icon" id="phoneIcon">
+    <i class="fa-solid fa-phone icon"></i>
+    <span class="tooltip" id="tooltip">Telephone: num1 - num2 - num3</span>
+</div>
+
+<div class="clock" id="clock">
+    <span class="clockMessage" id="clockMessage">Iran Time Zone (GMT +3:30 hours)</span>
+</div>
+
+<div id="particles-js"></div>
+
+<form action="{% url 'login' %}" method="post">
+  {% csrf_token %}
+  
+  <div class="login-container">
+    <div class="login-form">
+      <div class="input-container">
+        <input type="text" id="username" name="username" placeholder="Username">
+      </div>
+
+      <div class="input-container">
+        <input type="password" id="password" name="password" placeholder="Password">
+        <i class="far fa-eye" onclick="togglePassword()"></i>
+      </div>
+
+      <button id="loginButton" type="submit">Login</button>
+      <p id="errorMessage" style="display: none; color: red;">Incorrect password or username</p>
+      <span id="errorMessage" style="display: none; color: red;"></span>
+              {% if error %}
+        <p style="color: red;">{{ error }}</p>
+      
+      {% endif %}
+      
+    </div>
+  </div>
+</form>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="{% static 'js/login.js' %}"></script>
+
+</body>
+</html>
+```
+```css
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/img/Backgroundpic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+.phone-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto; 
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: -70px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.clock {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.clockMessage {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 30px;
+  right: -150px; 
+  width: 200px; 
+  text-align: center;
+}
+
+.clock:hover .clockMessage {
+  display: block;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 25px 20px;
+  border-radius: 30px; 
+  border: 1px solid #ccc;
+  font-size: 18px;
+  width: 500px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#password {
+  padding-right: 35px; 
+}
+
+#password:focus + i {
+  color: #007bff; 
+}
+
+.fa-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999;
+}
+
+#loginButton {
+  padding: 25px 30px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  color: var(--black-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold; 
+  width : 555px;
+  cursor: pointer;
+  transition: background-image 0.3s ease; 
+}
+
+#loginButton:hover {
+
+  background-image: linear-gradient(90deg, #006f84, #5ca742); 
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
+
+.logo,
+.phone-icon,
+.clock,
+.login-container {
+  z-index: 1;
+}
+```
+```js
+function updateClock() {
+  const clock = document.getElementById('clock');
+  const iranTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Tehran', hour12: false });
+  clock.textContent = iranTime.slice(-8);
+}
+
+setInterval(updateClock, 1000);
+
+const clockElement = document.getElementById('clock');
+const clockMessage = document.getElementById('clockMessage');
+let clickCount = 0;
+
+if (clockElement && clockMessage) {
+  clockElement.addEventListener('mouseenter', function() {
+    clockMessage.style.display = 'block';
+  });
+
+  clockElement.addEventListener('mouseleave', function() {
+    clockMessage.style.display = 'none';
+  });
+
+  clockElement.addEventListener('click', function() {
+    clickCount++;
+    if (clickCount >= 5) {
+      alert(clockMessage.textContent);
+      clickCount = 0;
+    }
+  });
+} else {
+  console.error("Clock message element not found");
+}
+
+document.getElementById('phoneIcon').addEventListener('click', function() {
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.display = tooltip.style.display === 'block' ? 'none' : 'block';
+});
+
+function togglePassword() {
+  const passwordField = document.getElementById('password');
+
+  if (passwordField.type === 'password') {
+    passwordField.type = 'text';
+  } else {
+    passwordField.type = 'password';
+  }
+}
+
+function togglePassword() {
+  const passwordField = document.getElementById('password');
+
+  if (passwordField.type === 'password') {
+    passwordField.type = 'text';
+  } else {
+    passwordField.type = 'password';
+  }
+}
+
+const errorMessage = document.getElementById('errorMessage');
+
+function displayErrorMessage(message) {
+    errorMessage.textContent = message;
+    errorMessage.style.display = 'block';
+}
+
+document.getElementById('loginButton').addEventListener('click', function(event) {
+    event.preventDefault(); 
+
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    if (!username || !password) {
+        displayErrorMessage('Fill in all the necessary data');
+        return;
+    }
+
+    event.currentTarget.closest('form').submit();
+});
+
+// Add Particle.js initialization
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80, density: { enable: true, value_area: 800 } },
+    color: { value: "#ffffff" },
+    shape: { type: "circle", stroke: { width: 0, color: "#000000" }, polygon: { nb_sides: 5 }, image: { src: "img/github.svg", width: 100, height: 100 } },
+    opacity: { value: 0.5, random: false, anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false } },
+    size: { value: 3, random: true, anim: { enable: false, speed: 40, size_min: 0.1, sync: false } },
+    line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+    move: { enable: true, speed: 6, direction: "none", random: false, straight: false, out_mode: "out", bounce: false, attract: { enable: false, rotateX: 600, rotateY: 1200 } },
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" }, resize: true },
+    modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: 0.4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } },
+  },
+  retina_detect: true,
+});
+```
+```python
+def user_login(request):
+    error_message = None
+    
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+
+        if not username or not password:
+            error_message = 'Fill in all the necessary data'
+        else:
+            user = authenticate(request, username=username, password=password)
+
+            if user is not None:
+                login(request, user)
+                if user.is_superuser:
+                    return redirect('admin:index')
+                else:
+                    return redirect('main')
+            else:
+                try:
+                    failed_login_user = User.objects.get(username=username)
+                    failed_login_user.profile.failed_login_attempts += 1
+                    failed_login_user.profile.last_login_attempt = timezone.now()
+                    failed_login_user.profile.save()
+
+                    if failed_login_user.profile.failed_login_attempts > 10:
+                        lock_time = failed_login_user.profile.last_login_attempt + timedelta(minutes=5)
+                        if timezone.now() < lock_time:
+                            return render(request, 'locked.html')
+                        else:
+                            failed_login_user.profile.failed_login_attempts = 0
+                            failed_login_user.profile.save()
+                except User.DoesNotExist:
+                    pass  
+                
+                error_message = 'Incorrect password or username'
+
+    return render(request, 'login.html', {'error': error_message})
+```
+Main Page:
