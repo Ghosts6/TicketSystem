@@ -1,0 +1,517 @@
+[2024-01-13 11:48:11] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 11:48:15] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 11:48:26] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2361
+[2024-01-13 11:48:32] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 11:48:32] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3818
+[2024-01-13 11:48:52] [INFO] [django.server:212] "POST /main/ HTTP/1.1" 302 0
+[2024-01-13 11:48:52] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 3520
+[2024-01-13 11:48:55] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3818
+[2024-01-13 11:48:56] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 3520
+[2024-01-13 11:48:58] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 11:49:00] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 11:50:58] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 11:51:02] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 11:51:02] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10126
+[2024-01-13 11:51:02] [INFO] [django.server:212] "GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 178
+[2024-01-13 11:51:02] [INFO] [django.server:212] "GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 200 252
+[2024-01-13 11:51:04] [INFO] [django.server:212] "GET /admin/auth/group/ HTTP/1.1" 200 9968
+[2024-01-13 11:51:04] [INFO] [django.server:212] "GET /static/admin/img/search.7cf54ff789c6.svg HTTP/1.1" 200 241
+[2024-01-13 11:51:04] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:04] [INFO] [django.server:212] "GET /static/admin/img/tooltag-add.e59d620a9742.svg HTTP/1.1" 200 182
+[2024-01-13 11:51:05] [INFO] [django.server:212] "GET /admin/auth/group/add/ HTTP/1.1" 200 12772
+[2024-01-13 11:51:05] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:06] [INFO] [django.server:212] "GET /static/admin/img/icon-unknown.a18cb4398978.svg HTTP/1.1" 200 345
+[2024-01-13 11:51:06] [INFO] [django.server:212] "GET /static/admin/img/selector-icons.b4555096cea2.svg HTTP/1.1" 200 702
+[2024-01-13 11:51:06] [INFO] [django.server:212] "GET /static/admin/img/icon-unknown-alt.81536e128bb6.svg HTTP/1.1" 200 345
+[2024-01-13 11:51:08] [INFO] [django.server:212] "GET /admin/auth/group/ HTTP/1.1" 200 9968
+[2024-01-13 11:51:08] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:10] [INFO] [django.server:212] "GET /admin/auth/user/ HTTP/1.1" 200 12990
+[2024-01-13 11:51:10] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:10] [INFO] [django.server:212] "GET /static/admin/img/icon-no.439e821418cd.svg HTTP/1.1" 200 257
+[2024-01-13 11:51:10] [INFO] [django.server:212] "GET /static/admin/img/icon-yes.d2f9f035226a.svg HTTP/1.1" 200 242
+[2024-01-13 11:51:10] [INFO] [django.server:212] "GET /static/admin/img/sorting-icons.3a097b59f104.svg HTTP/1.1" 200 329
+[2024-01-13 11:51:14] [INFO] [django.server:212] "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 13401
+[2024-01-13 11:51:14] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:16] [INFO] [django.server:212] "GET /admin/auth/user/?is_superuser__exact=0 HTTP/1.1" 200 12937
+[2024-01-13 11:51:16] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:17] [INFO] [django.server:212] "GET /admin/auth/user/?is_staff__exact=1&is_superuser__exact=0 HTTP/1.1" 200 11363
+[2024-01-13 11:51:17] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:18] [INFO] [django.server:212] "GET /admin/auth/user/? HTTP/1.1" 200 12990
+[2024-01-13 11:51:18] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:20] [INFO] [django.server:212] "GET /admin/auth/user/?groups__id__exact=1 HTTP/1.1" 200 12875
+[2024-01-13 11:51:20] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:21] [INFO] [django.server:212] "GET /admin/auth/user/?groups__id__exact=2 HTTP/1.1" 200 11018
+[2024-01-13 11:51:21] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:24] [INFO] [django.server:212] "GET /admin/auth/user/? HTTP/1.1" 200 12990
+[2024-01-13 11:51:24] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:25] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 15148
+[2024-01-13 11:51:25] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:34] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?department_name=last+test HTTP/1.1" 200 13820
+[2024-01-13 11:51:34] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:35] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?department_name=backend HTTP/1.1" 200 13784
+[2024-01-13 11:51:35] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:36] [INFO] [django.server:212] "GET /admin/Ticket/ticket/? HTTP/1.1" 200 15148
+[2024-01-13 11:51:36] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:40] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?ticket_status__exact=Completed HTTP/1.1" 200 13989
+[2024-01-13 11:51:40] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:40] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?ticket_status__exact=In+Progress HTTP/1.1" 200 14040
+[2024-01-13 11:51:40] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:41] [INFO] [django.server:212] "GET /admin/Ticket/ticket/? HTTP/1.1" 200 15148
+[2024-01-13 11:51:41] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:43] [INFO] [django.server:212] "GET /admin/Ticket/ticket/5/change/ HTTP/1.1" 200 17103
+[2024-01-13 11:51:43] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:43] [INFO] [django.server:212] "GET /static/admin/img/icon-viewlink.41eb31f7826e.svg HTTP/1.1" 200 326
+[2024-01-13 11:51:43] [INFO] [django.server:212] "GET /static/admin/img/icon-clock.e1d4dfac3f2b.svg HTTP/1.1" 200 329
+[2024-01-13 11:51:43] [INFO] [django.server:212] "GET /static/admin/img/icon-calendar.ac7aea671bea.svg HTTP/1.1" 200 411
+[2024-01-13 11:51:53] [INFO] [django.server:212] "GET /admin/Ticket/userprofile/ HTTP/1.1" 200 8651
+[2024-01-13 11:51:53] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 11:51:54] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 15148
+[2024-01-13 11:51:54] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:03:14] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:03:18] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 12:03:19] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2361
+[2024-01-13 12:03:23] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:03:23] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3914
+[2024-01-13 12:05:56] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3912
+[2024-01-13 12:05:59] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3912
+[2024-01-13 12:06:01] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3912
+[2024-01-13 12:06:45] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3912
+[2024-01-13 12:09:10] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3912
+[2024-01-13 12:14:05] [ERROR] [django.request:241] Internal Server Error: /main/
+Traceback (most recent call last):
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ghost/Desktop/wk/virtual/myTicket_v2/Ticket/views.py", line 91, in main
+    return render(request, 'main.html', {'form': form})
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 203, in url
+    return self._url(self.stored_name, name, force)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 182, in _url
+    hashed_name = hashed_name_func(*args)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 513, in stored_name
+    raise ValueError(
+ValueError: Missing staticfiles manifest entry for 'LineAwsome/css/line-awesome.min.css'
+[2024-01-13 12:14:05] [ERROR] [django.server:212] "GET /main/ HTTP/1.1" 500 954
+[2024-01-13 12:14:06] [ERROR] [django.request:241] Internal Server Error: /main/
+Traceback (most recent call last):
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ghost/Desktop/wk/virtual/myTicket_v2/Ticket/views.py", line 91, in main
+    return render(request, 'main.html', {'form': form})
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 203, in url
+    return self._url(self.stored_name, name, force)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 182, in _url
+    hashed_name = hashed_name_func(*args)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 513, in stored_name
+    raise ValueError(
+ValueError: Missing staticfiles manifest entry for 'LineAwsome/css/line-awesome.min.css'
+[2024-01-13 12:14:06] [ERROR] [django.server:212] "GET /main/ HTTP/1.1" 500 954
+[2024-01-13 12:14:42] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:14:46] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:14:46] [INFO] [django.server:212] "GET /static/LineAwsome/css/line-awesome.min.2498cf8bd785.css HTTP/1.1" 200 13033
+[2024-01-13 12:14:46] [INFO] [django.server:212] "GET /static/LineAwsome/fonts/la-solid-900.36fc297902c9.woff2 HTTP/1.1" 200 96752
+[2024-01-13 12:14:54] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 3520
+[2024-01-13 12:14:56] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:14:57] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 3520
+[2024-01-13 12:14:57] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 12:14:59] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:15:02] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:15:02] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10126
+[2024-01-13 12:15:03] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 15148
+[2024-01-13 12:15:03] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:15:14] [INFO] [django.server:212] "POST /admin/Ticket/ticket/ HTTP/1.1" 200 8959
+[2024-01-13 12:15:14] [INFO] [django.server:212] "GET /static/admin/js/cancel.ecc4c5ca7b32.js HTTP/1.1" 200 359
+[2024-01-13 12:15:16] [INFO] [django.server:212] "POST /admin/Ticket/ticket/ HTTP/1.1" 302 0
+[2024-01-13 12:15:16] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12762
+[2024-01-13 12:15:16] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:15:17] [INFO] [django.server:212] "GET /admin/Ticket/ticket/5/change/ HTTP/1.1" 200 17103
+[2024-01-13 12:15:17] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:15:21] [INFO] [django.server:212] "POST /admin/Ticket/ticket/5/change/ HTTP/1.1" 302 0
+[2024-01-13 12:15:21] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12855
+[2024-01-13 12:15:21] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:15:24] [INFO] [django.server:212] "POST /admin/logout/ HTTP/1.1" 200 3654
+[2024-01-13 12:15:27] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+[2024-01-13 12:15:27] [INFO] [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4272
+[2024-01-13 12:15:30] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 302 0
+[2024-01-13 12:15:30] [INFO] [django.server:212] "GET /admin/login/?next=/admin/Ticket/ticket/ HTTP/1.1" 200 4300
+[2024-01-13 12:15:31] [INFO] [django.server:212] "GET /admin/Ticket/ticket/5/change/ HTTP/1.1" 302 0
+[2024-01-13 12:15:31] [INFO] [django.server:212] "GET /admin/login/?next=/admin/Ticket/ticket/5/change/ HTTP/1.1" 200 4318
+[2024-01-13 12:15:31] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 302 0
+[2024-01-13 12:15:31] [INFO] [django.server:212] "GET /admin/login/?next=/admin/Ticket/ticket/ HTTP/1.1" 200 4300
+[2024-01-13 12:15:32] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 302 0
+[2024-01-13 12:15:32] [INFO] [django.server:212] "GET /admin/login/?next=/admin/Ticket/ticket/ HTTP/1.1" 200 4300
+[2024-01-13 12:15:32] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+[2024-01-13 12:15:32] [INFO] [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4272
+[2024-01-13 12:15:36] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 12:15:37] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2361
+[2024-01-13 12:15:42] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:15:42] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:15:46] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2070
+[2024-01-13 12:25:23] [INFO] [django.utils.autoreload:266] /home/ghost/Desktop/wk/virtual/myTicket_v2/Ticket/models.py changed, reloading.
+[2024-01-13 12:25:23] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:27:37] [INFO] [django.utils.autoreload:266] /home/ghost/Desktop/wk/virtual/myTicket_v2/Ticket/admin.py changed, reloading.
+[2024-01-13 12:27:37] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:27:45] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:27:54] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 12:27:55] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:27:59] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:27:59] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 9955
+[2024-01-13 12:27:59] [INFO] [django.server:212] "GET /static/admin/img/icon-deletelink.564ef9dc3854.svg HTTP/1.1" 200 195
+[2024-01-13 12:28:01] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12564
+[2024-01-13 12:28:01] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:28:03] [INFO] [django.server:212] "GET /admin/Ticket/ticket/5/change/ HTTP/1.1" 200 16290
+[2024-01-13 12:28:03] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:28:06] [INFO] [django.server:212] "POST /admin/Ticket/ticket/5/change/ HTTP/1.1" 302 0
+[2024-01-13 12:28:06] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12794
+[2024-01-13 12:28:06] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:28:13] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 12:28:14] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2361
+[2024-01-13 12:28:18] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:28:18] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:28:19] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:29:36] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:29:39] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:29:39] [INFO] [django.server:212] "GET /static/js/status.878c4903bea8.js HTTP/1.1" 200 1086
+[2024-01-13 12:29:40] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:30:16] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:30:20] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:30:21] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:30:25] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 12:30:26] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:30:29] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:30:29] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 9993
+[2024-01-13 12:30:31] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12564
+[2024-01-13 12:30:31] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:30:32] [INFO] [django.server:212] "GET /admin/Ticket/ticket/5/change/ HTTP/1.1" 200 16290
+[2024-01-13 12:30:32] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:30:37] [INFO] [django.server:212] "POST /admin/Ticket/ticket/5/change/ HTTP/1.1" 302 0
+[2024-01-13 12:30:37] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12792
+[2024-01-13 12:30:37] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:30:38] [INFO] [django.server:212] "GET /admin/Ticket/ticket/5/change/ HTTP/1.1" 200 16290
+[2024-01-13 12:30:38] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:30:41] [INFO] [django.server:212] "POST /admin/Ticket/ticket/5/change/ HTTP/1.1" 302 0
+[2024-01-13 12:30:41] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12794
+[2024-01-13 12:30:41] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:30:44] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 12:30:45] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2361
+[2024-01-13 12:30:53] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:30:53] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:30:55] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:31:55] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-13 12:32:00] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2056
+[2024-01-13 12:32:04] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:32:17] [INFO] [django.server:212] "POST /main/ HTTP/1.1" 302 0
+[2024-01-13 12:32:17] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2338
+[2024-01-13 12:36:10] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2386
+[2024-01-13 12:36:41] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 12:36:43] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:36:54] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:36:54] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:36:56] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2386
+[2024-01-13 12:36:58] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 12:37:16] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:39:28] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:39:44] [WARNING] [django.request:241] Not Found: /home/main
+[2024-01-13 12:39:44] [WARNING] [django.server:212] "GET /home/main HTTP/1.1" 404 5659
+[2024-01-13 12:39:44] [INFO] [django.server:212] "GET /static/css/404.06b5cd3d67a8.css HTTP/1.1" 200 737
+[2024-01-13 12:39:50] [WARNING] [django.request:241] Not Found: /home/main/
+[2024-01-13 12:39:50] [WARNING] [django.server:212] "GET /home/main/ HTTP/1.1" 404 5659
+[2024-01-13 12:39:59] [WARNING] [django.request:241] Not Found: /home/status
+[2024-01-13 12:39:59] [WARNING] [django.server:212] "GET /home/status HTTP/1.1" 404 5659
+[2024-01-13 12:40:06] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 12:40:56] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2361
+[2024-01-13 12:41:04] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:41:04] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3881
+[2024-01-13 12:41:07] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2386
+[2024-01-13 12:41:11] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1604
+[2024-01-13 12:41:13] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:41:16] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-13 12:41:16] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10070
+[2024-01-13 12:41:18] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13076
+[2024-01-13 12:41:18] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:21] [INFO] [django.server:212] "GET /admin/auth/group/ HTTP/1.1" 200 9968
+[2024-01-13 12:41:21] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:25] [INFO] [django.server:212] "GET /admin/auth/user/ HTTP/1.1" 200 12990
+[2024-01-13 12:41:25] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:29] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13076
+[2024-01-13 12:41:29] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:33] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?department_name=last+test HTTP/1.1" 200 13508
+[2024-01-13 12:41:33] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:34] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?department_name=backend HTTP/1.1" 200 13469
+[2024-01-13 12:41:34] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:36] [INFO] [django.server:212] "GET /admin/Ticket/ticket/? HTTP/1.1" 200 13076
+[2024-01-13 12:41:36] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:38] [INFO] [django.server:212] "GET /admin/Ticket/userprofile/ HTTP/1.1" 200 8651
+[2024-01-13 12:41:38] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:39] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13076
+[2024-01-13 12:41:39] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-13 12:41:43] [INFO] [django.server:212] "GET /admin/Ticket/userprofile/ HTTP/1.1" 200 8651
+[2024-01-13 12:41:43] [INFO] [django.server:212] "GET /admin/Ticket/ticket/? HTTP/1.1" 200 13076
+[2024-01-13 12:41:43] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?department_name=backend HTTP/1.1" 200 13469
+[2024-01-13 12:41:43] [INFO] [django.server:212] "GET /admin/Ticket/ticket/?department_name=last+test HTTP/1.1" 200 13508
+[2024-01-13 12:41:44] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13076
+[2024-01-13 12:41:44] [INFO] [django.server:212] "GET /admin/auth/user/ HTTP/1.1" 200 12990
+[2024-01-13 12:41:44] [INFO] [django.server:212] "GET /admin/auth/group/ HTTP/1.1" 200 9968
+[2024-01-13 12:41:44] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13076
+[2024-01-13 12:41:45] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10070
+[2024-01-13 12:41:45] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2361
+[2024-01-13 12:41:51] [WARNING] [django.request:241] Not Found: /home/status/
+[2024-01-13 12:41:51] [WARNING] [django.server:212] "GET /home/status/ HTTP/1.1" 404 5659
+[2024-01-13 12:41:58] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1604
+[2024-01-13 12:42:06] [ERROR] [django.request:241] Internal Server Error: /admin_panel/
+Traceback (most recent call last):
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ghost/Desktop/wk/virtual/myTicket_v2/Ticket/views.py", line 106, in admin_panel
+    return render(request, 'admin_panel.html', {'all_tickets': all_tickets})
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: admin_panel.html
+[2024-01-13 12:42:06] [ERROR] [django.server:212] "GET /admin_panel/ HTTP/1.1" 500 954
+[2024-01-13 12:42:21] [INFO] [django.server:212] "GET /admin HTTP/1.1" 301 0
+[2024-01-13 12:42:21] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10070
+[2024-01-13 12:42:24] [WARNING] [django.request:241] Not Found: /admindasda
+[2024-01-13 12:42:24] [WARNING] [django.server:212] "GET /admindasda HTTP/1.1" 404 5659
+[2024-01-14 14:48:15] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-14 14:50:22] [ERROR] [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 203, in url
+    return self._url(self.stored_name, name, force)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 182, in _url
+    hashed_name = hashed_name_func(*args)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 513, in stored_name
+    raise ValueError(
+ValueError: Missing staticfiles manifest entry for 'img/Untitled-removebg-preview.png'
+[2024-01-14 14:50:22] [ERROR] [django.server:212] "GET / HTTP/1.1" 500 954
+[2024-01-14 14:50:23] [INFO] [django.server:212] "GET /static/favicon/favicon-16x16.7577fc96fd9f.png HTTP/1.1" 200 1383
+[2024-01-14 14:50:26] [ERROR] [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 116, in render
+    url = self.url(context)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 113, in url
+    return self.handle_simple(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 203, in url
+    return self._url(self.stored_name, name, force)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 182, in _url
+    hashed_name = hashed_name_func(*args)
+  File "/home/ghost/.local/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py", line 513, in stored_name
+    raise ValueError(
+ValueError: Missing staticfiles manifest entry for 'img/Untitled-removebg-preview.png'
+[2024-01-14 14:50:26] [ERROR] [django.server:212] "GET / HTTP/1.1" 500 954
+[2024-01-14 15:04:24] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-14 15:04:32] [ERROR] [django.server:212] "GET / HTTP/1.1" 500 59
+[2024-01-14 15:06:19] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-14 15:06:22] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1460
+[2024-01-14 15:06:22] [INFO] [django.server:212] "GET /static/img/Untitled-removebg-preview.daa70dda11ea.png HTTP/1.1" 200 12406
+[2024-01-14 15:06:22] [INFO] [django.server:212] "GET /static/css/home.c330a39a7ca1.css HTTP/1.1" 200 376
+[2024-01-14 15:06:22] [INFO] [django.server:212] "GET /static/img/favicon/favicon-16x16.de8fea494a58.png HTTP/1.1" 200 964
+[2024-01-14 15:07:59] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2217
+[2024-01-14 15:07:59] [INFO] [django.server:212] "GET /static/css/login.d4bbb80f217f.css HTTP/1.1" 200 651
+[2024-01-14 15:08:03] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-14 15:08:03] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 15:08:04] [INFO] [django.server:212] "GET /static/LineAwsome/css/line-awesome.min.2498cf8bd785.css HTTP/1.1" 200 13033
+[2024-01-14 15:08:04] [INFO] [django.server:212] "GET /static/css/main.a2f921a1a4fb.css HTTP/1.1" 200 727
+[2024-01-14 15:08:04] [INFO] [django.server:212] "GET /static/LineAwsome/fonts/la-solid-900.36fc297902c9.woff2 HTTP/1.1" 200 96752
+[2024-01-14 15:08:06] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2242
+[2024-01-14 15:08:06] [INFO] [django.server:212] "GET /static/css/status.8ba7759f1f48.css HTTP/1.1" 200 769
+[2024-01-14 15:08:10] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 15:08:12] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2242
+[2024-01-14 15:08:12] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1460
+[2024-01-14 15:08:13] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2217
+[2024-01-14 15:08:16] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10070
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/css/dark_mode.ef27a31af300.css HTTP/1.1" 200 669
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/css/nav_sidebar.269a1bd44627.css HTTP/1.1" 200 625
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/css/dashboard.e90f2068217b.css HTTP/1.1" 200 185
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/css/responsive.107cd2690311.css HTTP/1.1" 200 2963
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 178
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/img/icon-deletelink.564ef9dc3854.svg HTTP/1.1" 200 195
+[2024-01-14 15:08:17] [INFO] [django.server:212] "GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 200 252
+[2024-01-14 15:12:26] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-14 15:12:29] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10070
+[2024-01-14 15:12:31] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2217
+[2024-01-14 15:12:31] [INFO] [django.server:212] "GET /static/img/Untitled-removebg-preview.3e0c68070678.png HTTP/1.1" 200 127375
+[2024-01-14 21:25:25] [INFO] [django.utils.autoreload:668] Watching for file changes with StatReloader
+[2024-01-14 21:25:41] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1460
+[2024-01-14 21:25:41] [INFO] [django.server:212] "GET /static/css/home.c330a39a7ca1.css HTTP/1.1" 200 376
+[2024-01-14 21:25:41] [INFO] [django.server:212] "GET /static/img/Untitled-removebg-preview.3e0c68070678.png HTTP/1.1" 200 127375
+[2024-01-14 21:26:08] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2217
+[2024-01-14 21:26:08] [INFO] [django.server:212] "GET /static/css/login.d4bbb80f217f.css HTTP/1.1" 200 651
+[2024-01-14 21:26:12] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-14 21:26:12] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 21:26:13] [INFO] [django.server:212] "GET /static/LineAwsome/css/line-awesome.min.2498cf8bd785.css HTTP/1.1" 200 13033
+[2024-01-14 21:26:13] [INFO] [django.server:212] "GET /static/css/main.a2f921a1a4fb.css HTTP/1.1" 200 727
+[2024-01-14 21:26:13] [INFO] [django.server:212] "GET /static/LineAwsome/fonts/la-solid-900.36fc297902c9.woff2 HTTP/1.1" 200 96752
+[2024-01-14 21:26:39] [INFO] [django.server:212] "POST /main/ HTTP/1.1" 302 0
+[2024-01-14 21:26:39] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2539
+[2024-01-14 21:26:39] [INFO] [django.server:212] "GET /static/css/status.8ba7759f1f48.css HTTP/1.1" 200 769
+[2024-01-14 21:26:43] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1460
+[2024-01-14 21:26:45] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2217
+[2024-01-14 21:28:11] [WARNING] [django.request:241] Not Found: /favicon.ico
+[2024-01-14 21:28:11] [WARNING] [django.server:212] "GET /favicon.ico HTTP/1.1" 404 5562
+[2024-01-14 21:28:39] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2217
+[2024-01-14 21:29:13] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1460
+[2024-01-14 21:29:13] [INFO] [django.server:212] "GET /static/css/home.c330a39a7ca1.css HTTP/1.1" 200 376
+[2024-01-14 21:29:13] [INFO] [django.server:212] "GET /static/js/home.e332b77de14f.js HTTP/1.1" 200 781
+[2024-01-14 21:29:14] [INFO] [django.server:212] "GET /static/img/Untitled-removebg-preview.3e0c68070678.png HTTP/1.1" 200 127375
+[2024-01-14 21:29:14] [INFO] [django.server:212] "GET /static/img/Backgroundpic.e87fe8f2b579.png HTTP/1.1" 200 908989
+[2024-01-14 21:29:14] [INFO] [django.server:212] "GET /static/img/favicon/favicon-16x16.de8fea494a58.png HTTP/1.1" 200 964
+[2024-01-14 21:29:15] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2217
+[2024-01-14 21:29:15] [INFO] [django.server:212] "GET /static/css/login.d4bbb80f217f.css HTTP/1.1" 200 651
+[2024-01-14 21:29:15] [INFO] [django.server:212] "GET /static/js/login.5309180c5b5e.js HTTP/1.1" 200 976
+[2024-01-14 21:29:51] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2217
+[2024-01-14 21:29:55] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-14 21:29:55] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 21:30:13] [INFO] [django.server:212] "POST /main/ HTTP/1.1" 302 0
+[2024-01-14 21:30:13] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2829
+[2024-01-14 21:30:16] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 21:30:17] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2829
+[2024-01-14 21:30:52] [INFO] [django.server:212] "GET /home/ HTTP/1.1" 200 1460
+[2024-01-14 21:30:53] [INFO] [django.server:212] "GET /home/login/ HTTP/1.1" 200 2217
+[2024-01-14 21:30:56] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /admin/ HTTP/1.1" 200 10070
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/css/base.64976e0f7339.css HTTP/1.1" 200 4149
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/css/dark_mode.ef27a31af300.css HTTP/1.1" 200 669
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/css/nav_sidebar.269a1bd44627.css HTTP/1.1" 200 625
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/css/dashboard.e90f2068217b.css HTTP/1.1" 200 185
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/css/responsive.107cd2690311.css HTTP/1.1" 200 2963
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/img/icon-addlink.d519b3bab011.svg HTTP/1.1" 200 178
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/img/icon-deletelink.564ef9dc3854.svg HTTP/1.1" 200 195
+[2024-01-14 21:30:56] [INFO] [django.server:212] "GET /static/admin/img/icon-changelink.18d2fd706348.svg HTTP/1.1" 200 252
+[2024-01-14 21:30:58] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 14119
+[2024-01-14 21:30:58] [INFO] [django.server:212] "GET /static/admin/img/search.7cf54ff789c6.svg HTTP/1.1" 200 241
+[2024-01-14 21:30:58] [INFO] [django.server:212] "GET /static/admin/js/filters.0e360b7a9f80.js HTTP/1.1" 200 392
+[2024-01-14 21:30:58] [INFO] [django.server:212] "GET /static/admin/css/changelists.9237a1ac391b.css HTTP/1.1" 200 1274
+[2024-01-14 21:30:58] [INFO] [django.server:212] "GET /static/admin/js/jquery.init.b7781a0897fc.js HTTP/1.1" 200 194
+[2024-01-14 21:30:59] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-14 21:30:59] [INFO] [django.server:212] "GET /static/admin/img/tooltag-add.e59d620a9742.svg HTTP/1.1" 200 182
+[2024-01-14 21:31:07] [INFO] [django.server:212] "POST /admin/Ticket/ticket/ HTTP/1.1" 200 8682
+[2024-01-14 21:31:07] [INFO] [django.server:212] "GET /static/admin/js/cancel.ecc4c5ca7b32.js HTTP/1.1" 200 359
+[2024-01-14 21:31:09] [INFO] [django.server:212] "POST /admin/Ticket/ticket/ HTTP/1.1" 302 0
+[2024-01-14 21:31:09] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 12701
+[2024-01-14 21:31:09] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-14 21:31:09] [INFO] [django.server:212] "GET /static/admin/img/icon-yes.d2f9f035226a.svg HTTP/1.1" 200 242
+[2024-01-14 21:31:12] [INFO] [django.server:212] "GET /admin/Ticket/ticket/add/ HTTP/1.1" 200 15922
+[2024-01-14 21:31:12] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-14 21:31:12] [INFO] [django.server:212] "GET /static/admin/css/forms.3b181cba6653.css HTTP/1.1" 200 1879
+[2024-01-14 21:31:12] [INFO] [django.server:212] "GET /static/admin/js/change_form.9d8ca4f96b75.js HTTP/1.1" 200 243
+[2024-01-14 21:31:12] [INFO] [django.server:212] "GET /static/admin/js/prepopulate_init.6cac7f3105b8.js HTTP/1.1" 200 231
+[2024-01-14 21:31:12] [INFO] [django.server:212] "GET /static/admin/css/widgets.0a3765e806b3.css HTTP/1.1" 200 2142
+[2024-01-14 21:31:13] [INFO] [django.server:212] "GET /static/admin/img/icon-viewlink.41eb31f7826e.svg HTTP/1.1" 200 326
+[2024-01-14 21:31:13] [INFO] [django.server:212] "GET /static/admin/img/icon-clock.e1d4dfac3f2b.svg HTTP/1.1" 200 329
+[2024-01-14 21:31:13] [INFO] [django.server:212] "GET /static/admin/img/icon-calendar.ac7aea671bea.svg HTTP/1.1" 200 411
+[2024-01-14 21:31:38] [INFO] [django.server:212] "POST /admin/Ticket/ticket/add/ HTTP/1.1" 302 0
+[2024-01-14 21:31:38] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13411
+[2024-01-14 21:31:38] [INFO] [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2024-01-14 21:31:39] [INFO] [django.server:212] "GET /admin/Ticket/ticket/add/ HTTP/1.1" 200 15922
+[2024-01-14 21:31:40] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13182
+[2024-01-14 21:31:41] [INFO] [django.server:212] "GET /admin/Ticket/ticket/ HTTP/1.1" 200 13182
+[2024-01-14 21:31:45] [INFO] [django.server:212] "GET / HTTP/1.1" 200 1460
+[2024-01-14 21:31:57] [INFO] [django.server:212] "GET /login/ HTTP/1.1" 200 2217
+[2024-01-14 21:32:01] [INFO] [django.server:212] "POST /home/login/ HTTP/1.1" 302 0
+[2024-01-14 21:32:01] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 21:32:25] [INFO] [django.server:212] "POST /main/ HTTP/1.1" 302 0
+[2024-01-14 21:32:25] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2523
+[2024-01-14 21:32:28] [INFO] [django.server:212] "GET /main/ HTTP/1.1" 200 3737
+[2024-01-14 21:32:30] [INFO] [django.server:212] "GET /main/status HTTP/1.1" 200 2523
