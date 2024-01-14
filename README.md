@@ -462,3 +462,382 @@ def user_login(request):
     return render(request, 'login.html', {'error': error_message})
 ```
 Main Page:
+
+```html
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'img/favicon/favicon-32x32.png'%}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'img/favicon/favicon-16x16.png'%}">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel= "stylesheet" href= "{% static 'LineAwsome/css/line-awesome.min.css' %}" >
+  <link href="{% static 'css/main.css' %}" rel="stylesheet"> 
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+<title>Main page</title>
+</head>
+<body>
+
+<a href="https://kiarashbashokian.com" target="_blank">
+  <img src="{% static 'img/Untitled-removebg-preview.png' %}" alt="Your Logo" class="logo">
+</a>
+
+<div class="phone-icon" id="phoneIcon">
+    <i class="fa-solid fa-phone icon"></i>
+    <span class="tooltip" id="tooltip">Telephone: num1 - num2 - num3</span>
+</div>
+
+<div class="clock" id="clock">
+    <span class="clockMessage" id="clockMessage">Iran Time Zone (GMT +3:30 hours)</span>
+</div>
+
+   <div class="main-container">
+    <div class="form-container">
+      <form action="{% url 'main' %}" method="post" enctype="multipart/form-data">
+        <div class="input-container">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+
+        <div class="input-container">
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="last_name" placeholder="Enter your last name">
+        </div>
+
+        <div class="input-container">
+               <label for="department_name">Department Name:</label>
+               <input type="text" id="department_name" name="department_name" placeholder="Enter your department name">
+        </div>
+        
+        <div class="input-container">
+          <label for="request_type">Request Type:</label>
+          <select id="request_type" name="request_type" class="request-type-select">
+          <option value="" selected disabled>Select type of request</option>
+          <option value="hardwareissue">Hardware Issue</option>
+          <option value="softwareissue">Software Issue</option>
+          <option value="update&upgrade">Update & Upgrade</option>
+          <option value="boost">Boost</option>
+          <option value="repair">Repair</option>
+          <option value="installprogram">Install Program</option>
+        </select>
+      </div>
+      <div class="input-container">
+    <label for="attachment" id="attachLabel">
+      <i class="las la-paperclip" id="attachIcon"></i> Attach file
+    </label>
+    <input type="file" id="attachment" name="attachment" style="display: none;">
+      </div> 
+        <div class="input-container">
+             <label for="description">Description:</label>
+             <textarea id="description" name="description" class="description-textarea" placeholder="Enter description"></textarea>
+        </div>
+
+        <!-- CSRF token field (hidden) -->
+        <span class="csrf-field">{% csrf_token %}</span>
+        <button id="submitButton" type="submit">Submit</button>
+        <a href="{% url 'status' %}" class="ticket-history-button">Ticket History</a>
+        <span id="errorMessage" style="display: none; color: red;"></span>
+      </form>
+    </div>
+  </div>
+
+
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
+```
+```css
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/img/Backgroundpic.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+.phone-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 60px; 
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto; 
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: -70px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.clock {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.clockMessage {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 30px;
+  right: -150px; 
+  width: 200px; 
+  text-align: center;
+}
+
+.clock:hover .clockMessage {
+  display: block;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 30px;
+}
+
+.form-container form {
+  padding: 0;
+  border: none; 
+  margin: 30px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+}
+
+.input-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.input-container input[type="text"],
+.input-container select,
+.input-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px; 
+  font-size: 18px;
+  width: 500px;
+}
+
+.description-textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 18px;
+  width: 500px;
+  height: 150px; 
+}
+
+.csrf-field {
+  display: none;
+}
+
+#submitButton {
+  height: 40px!important;
+  line-height: 10px;
+  padding: 25px 30px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  color: var(--black-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 555px;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+#submitButton:hover {
+  background-image: linear-gradient(90deg, #006f84, #5ca742);
+}
+#errorMessage {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+#attachLabel {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  height: auto;
+  width: 470px; 
+  display: flex;
+  align-items: center;
+}
+
+#attachIcon {
+  font-size: 24px;
+  margin-right: 1px;
+}
+
+#attachIcon,
+.attach-text {
+  cursor: pointer;
+}
+
+#attachLabel:hover {
+  border-color: #0097b2;
+}
+
+.ticket-history-button {
+  margin-top: 10px; 
+  padding: 5px;
+  height: 40px !important;
+  line-height: 40px;
+  background-image: linear-gradient(90deg, #0097b2, #7ed957);
+  color: var(--black-color);
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px; 
+  display: block;  
+}
+
+.ticket-history-button:hover {
+  background-image: linear-gradient(90deg, #006f84, #5ca742);
+
+}
+```
+```js
+function updateClock() {
+  const clock = document.getElementById('clock');
+  const iranTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Tehran', hour12: false });
+  clock.textContent = iranTime.slice(-8);
+}
+
+setInterval(updateClock, 1000);
+
+const clockElement = document.getElementById('clock');
+const clockMessage = document.getElementById('clockMessage');
+let clickCount = 0;
+
+if (clockElement && clockMessage) {
+  clockElement.addEventListener('mouseenter', function() {
+    clockMessage.style.display = 'block';
+  });
+
+  clockElement.addEventListener('mouseleave', function() {
+    clockMessage.style.display = 'none';
+  });
+
+  clockElement.addEventListener('click', function() {
+    clickCount++;
+    if (clickCount >= 5) {
+      alert(clockMessage.textContent);
+      clickCount = 0;
+    }
+  });
+} else {
+  console.error("Clock message element not found");
+}
+
+document.getElementById('phoneIcon').addEventListener('click', function() {
+  const tooltip = document.getElementById('tooltip');
+  tooltip.style.display = tooltip.style.display === 'block' ? 'none' : 'block';
+});
+
+document.getElementById('submitButton').addEventListener('click', function(event) {
+    const inputFields = document.querySelectorAll('input[type="text"], select, textarea');
+
+    let isFormValid = true;
+
+    inputFields.forEach(function(field) {
+        if (field.value.trim() === '') {
+            isFormValid = false;
+            field.style.border = '2px solid red'; 
+        } else {
+            field.style.border = ''; 
+        }
+    });
+
+    if (!isFormValid) {
+        const errorMessage = document.getElementById('errorMessage');
+        errorMessage.textContent = 'Fill all the fields';
+        errorMessage.style.display = 'block';
+        errorMessage.style.color = 'red';
+        event.preventDefault();  
+    }
+});
+```
+```python
+def main(request):
+    if request.method == 'POST':
+        # Set the status field
+        request.POST = request.POST.copy()
+        request.POST['status'] = 'Pending'
+
+        form = TicketForm(request.POST, request.FILES)  
+
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            lastname = form.cleaned_data['last_name']
+            department = form.cleaned_data['department_name']
+            request_type = form.cleaned_data['request_type']  
+            description = form.cleaned_data['description']
+            attachment = request.FILES.get('attachment')
+
+            ticket = Ticket(
+                user=request.user,
+                name=name,
+                last_name=lastname,
+                department_name=department,
+                request_type=request_type,
+                description=description,
+                attachment=attachment,
+                status='Pending',  
+            )
+            ticket.save()
+
+            return redirect('status')  
+    else:
+        form = TicketForm()
+
+    return render(request, 'main.html', {'form': form})
+
+def locked(request):
+    return render(request, 'locked.html')
+```
