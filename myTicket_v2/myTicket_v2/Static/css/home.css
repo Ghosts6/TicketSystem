@@ -1,1 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/static/img/Backgroundpic.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* Update with preferred font */
+}
+.phone-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+}
 
+.icon {
+  font-size: 60px; /* Adjust the font size as needed */
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: auto; 
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: -70px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.clock {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.clockMessage {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  top: 30px;
+  right: -150px; 
+  width: 200px; 
+  text-align: center;
+}
+
+.clock:hover .clockMessage {
+  display: block;
+}
+
+#loginText {
+  position: fixed;
+  top: 55%; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#subText {
+  position: fixed;
+  top: 65%; 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: gray; 
+  text-align: center; 
+}
