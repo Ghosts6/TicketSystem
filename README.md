@@ -102,7 +102,8 @@ tail -n 50 myTicket_v2/mysitelog.txt
 # Code-sample:
 Login Page:
 
-[![Login](https://i9.ytimg.com/vi_webp/tGou7XnX3nQ/mq1.webp?sqp=CMjKlK0G-oaymwEmCMACELQB8quKqQMa8AEB-AGSCYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDx59NXkfCL8PxbEHJq8OnSnrj-KQ)](https://youtu.be/tGou7XnX3nQ)
+[login (1).webm](https://github.com/Ghosts6/Local-website/assets/95994481/ae6b7eca-941c-4482-9bd0-376e2fa0d3a9)
+
 
 ```html
 {%load static %}
@@ -464,6 +465,7 @@ def user_login(request):
     return render(request, 'login.html', {'error': error_message})
 ```
 Main Page:
+[main.webm](https://github.com/Ghosts6/Local-website/assets/95994481/e10e6b96-1475-4990-8974-df26c461abe7)
 
 ```html
 {% load static %}
