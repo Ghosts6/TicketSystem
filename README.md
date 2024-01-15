@@ -5,6 +5,8 @@ Here is the source code for our web project that i write for a company based on 
 
 🚨 Hint: For security and privacy reasons, I've made alterations to the code. For instance, certain functions like hashing and login different from the actual project. Additionally, I've replaced the company name, logo, and contact information in this representation to maintain confidentiality.
 
+[project.webm](https://github.com/Ghosts6/Local-website/assets/95994481/46b243b6-2994-43fd-8d4b-d0243a62ef08)
+
 
 # ℹ️Directory Structure:
 This project is structured into two components: the web part (myTicket_v2) focuses on configuring project settings and assets, while the web application part (Ticket) is dedicated to page creation, path configuration, and associated views
