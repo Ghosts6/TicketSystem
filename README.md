@@ -102,7 +102,7 @@ tail -n 50 myTicket_v2/mysitelog.txt
 # Code-sample:
 Login Page:
 
-[![Video preview image](path/to/preview.jpg)](https://youtu.be/tGou7XnX3nQ)
+[![Login](https://i9.ytimg.com/vi_webp/tGou7XnX3nQ/mq1.webp?sqp=CMjKlK0G-oaymwEmCMACELQB8quKqQMa8AEB-AGSCYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDx59NXkfCL8PxbEHJq8OnSnrj-KQ)](https://youtu.be/tGou7XnX3nQ)
 
 ```html
 {%load static %}
