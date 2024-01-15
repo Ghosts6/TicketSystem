@@ -102,6 +102,8 @@ tail -n 50 myTicket_v2/mysitelog.txt
 # Code-sample:
 Login Page:
 
+[![Loging](https://example.com/thumbnail.jpg)](https://youtu.be/_yoJuiscd4I)
+
 ```html
 {%load static %}
 <!DOCTYPE html>
