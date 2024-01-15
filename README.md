@@ -465,7 +465,9 @@ def user_login(request):
     return render(request, 'login.html', {'error': error_message})
 ```
 Main Page:
+
 [main.webm](https://github.com/Ghosts6/Local-website/assets/95994481/e10e6b96-1475-4990-8974-df26c461abe7)
+
 
 ```html
 {% load static %}
