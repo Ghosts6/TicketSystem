@@ -7,7 +7,6 @@ class UserProfileAdmin(admin.ModelAdmin):
     search_fields = ('user__username', 'user__email',)
 
     def get_department(self, obj):
-        # Retrieve department_name from related Ticket model
         related_ticket = Ticket.objects.filter(user=obj.user).first()
         if related_ticket:
             return related_ticket.department_name
