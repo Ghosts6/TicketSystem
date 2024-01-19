@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-                os.path.join(BASE_DIR, '/home/ghost/Desktop/github/virtual/myTicket_v2/myTicket_v2/Template'), ],
+                os.path.join(BASE_DIR, 'myTicket_v2/myTicket_v2/Template'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,7 +128,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_DIRS = [
-    BASE_DIR / '/home/ghost/Desktop/github/virtual/myTicket_v2/myTicket_v2/Static',
+    BASE_DIR / 'myTicket_v2/myTicket_v2/Static',
 ]
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -155,7 +155,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',  # Set the logging level as needed (DEBUG, INFO, WARNING, ERROR, CRITICAL)
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': '/home/ghost/Desktop/github/virtual/myTicket_v2/mysite.log',
+            'filename': 'myTicket_v2/mysite.log',
             'maxBytes': 1024 * 1024 * 15,  # 15MB
             'backupCount': 10,
             'formatter': 'verbose',
