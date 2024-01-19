@@ -22,11 +22,12 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install django
-        pip install whitenoise
-        pip install packaging
-        pip install django-auth-ldap    
+       sudo apt-get install -y python-dev libldap2-dev
+       python -m pip install --upgrade pip
+       pip install django
+       pip install whitenoise
+       pip install packaging
+       pip install django-auth-ldap       
     - name: Run Tests
       run: |
         cd myTicket_v2
