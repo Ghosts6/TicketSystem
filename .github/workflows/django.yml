@@ -24,6 +24,7 @@ jobs:
       run: |
        sudo apt-get install -y libldap2-dev
        python -m pip install --upgrade pip
+       pip install python-ldap
        pip install django
        pip install whitenoise
        pip install packaging
