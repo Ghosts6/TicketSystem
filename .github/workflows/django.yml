@@ -1,5 +1,4 @@
 name: Django CI
-
 on:
   push:
     branches: [ "main" ]
@@ -28,4 +27,5 @@ jobs:
         pip install packaging
     - name: Run Tests
       run: |
+        cd Local-website/myTicket_v2
         python manage.py test
