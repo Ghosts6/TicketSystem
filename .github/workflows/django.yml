@@ -27,5 +27,5 @@ jobs:
         pip install packaging
     - name: Run Tests
       run: |
-        ls&&pwd
+        cd myTicket_v2
         python manage.py test
