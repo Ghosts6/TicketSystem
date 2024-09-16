@@ -1,6 +1,6 @@
 ![baner](https://github.com/Ghosts6/Local-website/blob/main/img/Baner.png)
 
-# 💻Local-website:
+# 💻Ticket-website:
 Here is the source code for our web project that i write for a company based on their needs,this project are quite similar to my  other [webproject](https://github.com/Ghosts6/webProject) purpose of this projects are same , i create this project to help tech team of company to manage they time and handleing requests from client This time I've been working on fixing some bugs and enhancing the overall quality of the project. ,also we've introduced a new design, improved the UI/UX, and made adjustments to enhance admin accessibility and the database system, among other improvements
 
 🚨 Hint: For security and privacy reasons, I've made alterations to the code. For instance, certain functions like hashing and login different from the actual project. Additionally, I've replaced the company name, logo, and contact information in this representation to maintain confidentiality.
@@ -56,7 +56,7 @@ This project is structured into two components: the web part (myTicket_v2) focus
 ```
 
 # 👨‍💻Technology:
-I created this project using MySQL and PostgreSQL for the database, hosted on a Linux server within a local network, designed the interface with Figma and Canva, implemented the frontend with HTML, CSS, and JS, and developed the backend using Django and Python
+I created this project using MySQL and PostgreSQL for the database, hosted on a Linux server within a  network, designed the interface with Figma and Canva, implemented the frontend with HTML, CSS, and JS, and developed the backend using Django and Python
 ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=plastic&logo=django&logoColor=white)![Flask](https://img.shields.io/badge/flask-%23000.svg?style=plastic&logo=flask&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)
  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=plastic&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgresql-336791?style=plastic&logo=postgresql&logoColor=white) ![Linux](https://img.shields.io/badge/linux-FCC624?style=plastic&logo=linux&logoColor=black)
  ![Bash](https://img.shields.io/badge/bash-4EAA25?style=plastic&logo=gnu-bash&logoColor=white)
@@ -104,7 +104,7 @@ tail -n 50 myTicket_v2/mysitelog.txt
 # Code-sample:
 Login Page:
 
-[login.webm](https://github.com/Ghosts6/Local-website/assets/95994481/ae6b7eca-941c-4482-9bd0-376e2fa0d3a9)
+[login.webm](https://github.com/Ghosts6/-website/assets/95994481/ae6b7eca-941c-4482-9bd0-376e2fa0d3a9)
 
 
 ```html
@@ -331,7 +331,7 @@ input[type="password"]:focus {
 ```js
 function updateClock() {
   const clock = document.getElementById('clock');
-  const iranTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Tehran', hour12: false });
+  const iranTime = new Date().toeString('en-US', { timeZone: 'Asia/Tehran', hour12: false });
   clock.textContent = iranTime.slice(-8);
 }
 
@@ -468,7 +468,7 @@ def user_login(request):
 ```
 Main Page:
 
-[main.webm](https://github.com/Ghosts6/Local-website/assets/95994481/e10e6b96-1475-4990-8974-df26c461abe7)
+[main.webm](https://github.com/Ghosts6/-website/assets/95994481/e10e6b96-1475-4990-8974-df26c461abe7)
 
 
 ```html
@@ -753,7 +753,7 @@ body {
 ```js
 function updateClock() {
   const clock = document.getElementById('clock');
-  const iranTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Tehran', hour12: false });
+  const iranTime = new Date().toeString('en-US', { timeZone: 'Asia/Tehran', hour12: false });
   clock.textContent = iranTime.slice(-8);
 }
 
